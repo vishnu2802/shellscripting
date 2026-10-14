@@ -13,4 +13,4 @@ echo "${person} :: I am good too, ${person1} thanks for asking!"
 END_TIME=$(date +%s)
 echo "End time: ${END_TIME}"    
 
-Total time taken: $((END_TIME - START_TIME)) seconds
+echo "Total time taken: $((END_TIME - START_TIME)) seconds"
